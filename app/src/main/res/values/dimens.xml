@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="uploadim">20sp</dimen>
+    <dimen name="up_btn">16sp</dimen>
+    <dimen name="net_btn">16sp</dimen>
+    <dimen name="cusRe">30sp</dimen>
+    <dimen name="type">20sp</dimen>
+    <dimen name="colr">20sp</dimen>
+    <dimen name="mc_coun">20sp</dimen>
+    <dimen name="sqfeet">20sp</dimen>
+    <dimen name="submit">14sp</dimen>
+    <dimen name="v_type">20sp</dimen>
+    <dimen name="v_color">20sp</dimen>
+    <dimen name="v_countrt">20sp</dimen>
+    <dimen name="v_ft">20sp</dimen>
+    <dimen name="v_typename">20sp</dimen>
+    <dimen name="v_colorname">20sp</dimen>
+    <dimen name="v_mccountrtname">20sp</dimen>
+    <dimen name="v_ftname">20sp</dimen>
+    <dimen name="choice">20sp</dimen>
+    <dimen name="v_edit">14sp</dimen>
+    <dimen name="dlt">14sp</dimen>
+    <dimen name="typ">20</dimen>
+    <dimen name="update">30</dimen>
+
+
+
+</resources>

@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">SolarApp</string>
-</resources>
+
+        <string name="VirtualHomeAssistance">     Virtual Home </string>
+        <string name="En_image">Upload the image of roof : (maximum 10MB)</string>
+        <string name="Btn_Dlt">upload</string>
+        <string name="Btn_Next">Next</string>
+        <string name="cus_Rec">Customer Recommendation</string>
+        <string name="Type">Type</string>
+        <string name="ManufactureCoun">Manufacture Country</string>
+        <string name="colr">Colour</string>
+        <string name="size">Size</string>
+        <string name="squrefeet">Enter Square Feet</string>
+        <string name="Submit">Submit</string>
+        <string name="cusRecom">    Customer Recommendation</string>
+        <string name="type">Type</string>
+        <string name="colour">Colour</string>
+        <string name="Mancun">Manufacturer Country</string>
+        <string name="sze">Size</string>
+        <string name="esfet">Enter Square Feet</string>
+        <string name="subt">Submit</string>
+        <string name="ViewDe">        View Customer       Recommendation</string>
+        <string name="t_pe">Type</string>
+        <string name="c_lr">Colour</string>
+        <string name="m_Country">Manufacturer Country</string>
+        <string name="s_zed">Size</string>
+        <string name="s_Feet">Enter Square Feet</string>
+        <string name="Benq">BenQ sunForte</string>
+        <string name="b_lue">Black</string>
+        <string name="M_cun">India</string>
+        <string name="si__ze">Size  45ft</string>
+        <string name="edit">Do you want to edit the uploaded images : </string>
+        <string name="e_dit">Edit</string>
+        <string name="D_btn">Remove</string>
+        <string name="type1">Type</string>
+        <string name="color1">Colour</string>
+        <string name="mc">Manufacture Country</string>
+        <string name="fetch">Fetch Data</string>
+        <string name="square">Square Feet</string>
+        <string name="update">Update Details</string>
+
+    </resources>

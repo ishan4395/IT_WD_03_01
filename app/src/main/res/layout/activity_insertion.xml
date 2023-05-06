@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".activities.InsertionActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/purple_700"
+        android:text="Add Recommendation"
+
+        android:background="@color/purple_500"
+        android:textAlignment="center"
+        android:textColor="#EAEAEA"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/etEmpName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="381dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:hint="Enter Type"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmpAge"
+        android:layout_width="385dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Enter Colour"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpName" />
+
+    <EditText
+        android:id="@+id/etEmpSalary"
+        android:layout_width="373dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Manufacutered country"
+        android:inputType="textPersonName"
+        android:textColor="#605D5D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpAge" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="125dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/purple_200"
+        android:iconTint="@color/purple_200"
+        android:text="Save Data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="363dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/square"
+        android:textColor="@color/sq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpSalary" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

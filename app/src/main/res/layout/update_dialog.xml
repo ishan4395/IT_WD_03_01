@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:textAlignment="center"
+        android:textColor="#EAEAEA"
+        android:text="Update Recommendation"
+
+        android:textSize="30dp" />
+
+        <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="372dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:hint="Type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmpAge"
+        android:layout_width="381dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="colour" />
+
+    <EditText
+        android:id="@+id/etEmpSalary"
+        android:layout_width="381dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="ManufactureCoun"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmpSquare"
+        android:layout_width="401dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Square Feet"
+        android:inputType="textPersonName"
+        android:textColor="#151313" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="151dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/submit"
+        android:iconTint="@color/submit"
+        android:text="Update Data" />
+
+
+</LinearLayout>
