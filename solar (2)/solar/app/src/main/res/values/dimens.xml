@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edtname">38dp</dimen>
+    <dimen name="edtbtn">14dp</dimen>
+    <dimen name="sub">14dp</dimen>
+    <dimen name="subb">14dp</dimen>
+</resources>
